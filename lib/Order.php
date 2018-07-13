@@ -72,9 +72,9 @@ class Order
         return $this->channel;
     }
 
-    public $sdkVersion = "1.3.0";
+    public $sdkVersion = "1.4.0";
 
-    public function getSDKVersion() 
+    public function getSDKVersion()
     {
         return $this->sdkVersion;
     }
